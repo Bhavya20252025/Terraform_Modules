@@ -9,16 +9,3 @@ resource "aws_instance" "ec2" {
     Name = var.name
   }
 }
-
-variable "region" {
-  
-}
-variable "ami" {
-  
-}
-variable "instance_type" {
-  
-}
-variable "name" {
-  
-}
